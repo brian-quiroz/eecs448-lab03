@@ -1,0 +1,110 @@
+<html>
+	<head>
+    <meta charset="UTF-8">
+    <title> CSS Profile </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+    body {
+      font-family: Helvetica;
+      background-color: #CFFAFB;
+    }
+
+    h1 {
+      font-size: 32pt;
+      text-align: center;
+    }
+
+    b {
+      color: green;
+    }
+
+    b:hover {
+      color: red;
+    }
+
+    .my-text:hover {
+      color: rgb(159,4,37);
+    }
+
+    img {
+      padding-left: 70px;
+    }
+
+
+    .box {
+      border-style: solid;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /*Background photo taken from https://admissions.ku.edu/visiting-campus*/
+    #top-box {
+      background-image: url(https://admissions.ku.edu/sites/default/files/styles/banner_header_photo/public/2017-03/RS30273_13495_r_104_0.jpg?h=1ee278c7&itok=GiWZpJ_Q);
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      border-color: black;
+      border-width: 5px;
+      font-size: 80pt;
+      font-family: Garamond;
+      color: white;
+    }
+
+    #video-box {
+      background-color: #FAFA00;
+      border-color: blue;
+      border-width: 3px;
+      border-radius: 25px;
+    }
+
+    h5 {
+      text-align: center;
+    }
+    </style>
+
+	</head>
+
+	<body>
+
+    <h1>Personal Profile</h1>
+
+    <div class="box" id="top-box">
+      <i>Rock Chalk,<br> Jayhawk,<br>KU</i>
+    </div>
+
+    <p><b>Name: </b>Jay Hawk </p>
+
+    <p><b>Picture:</b></p>
+    <!-- Image taken from https://en.wikipedia.org/wiki/File:Kansas_Jayhawks_logo.svg-->
+    <img src="https://upload.wikimedia.org/wikipedia/en/f/f4/Kansas_Jayhawks_logo.svg" alt="Jayhawk Pofile Pic">
+
+    <p>
+      <!-- Text taken from https://en.wikipedia.org/wiki/Jayhawker#Relationship_to_the_University_of_Kansas_Jayhawk-->
+      <b>Biographical paragraph:</b>
+      <p>"When the University of Kansas fielded their first football team in 1890, the team was called the Jayhawkers.
+      Over time, the name was gradually supplanted by its shorter variant, and KU's sports teams are now almost exclusively
+      known as the Jayhawks. In the version promoted by KU, the jayhawk is said to be a combination of two birds,
+      'the blue jay, a noisy, quarrelsome thing known to rob other nests, and the sparrow hawk, a stealthy hunter.'"
+      </p>
+    </p>
+
+    <p>
+      <b>Hyperlinks to favorite websites:</b>
+      <ul>
+        <li><a href="https://www.ku.edu/" class="my-text">KU Website</a></li>
+        <li><a href="https://www.kubookstore.com/" class="my-text">KU Bookstore</a></li>
+        <li><a href="http://kuathletics.com/index.aspx?path=mbball" class="my-text">KU athletics</a></li>
+      </ul>
+    </p>
+
+    <p><b>Embedded Video:</b></p>
+    <div class="box" id="video-box">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/h51be27dN8c" frameborder="0"
+    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+
+    <h5>Developed by Brian Q.</h5>
+
+	</body>
+</html>

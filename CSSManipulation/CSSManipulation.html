@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CSS Manipulation</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+			<script type="text/javascript"
+                 src="CSSManipulation.js">
+      </script>
+      <style>
+        #my-paragraph {
+          text-align: justify;
+          text-indent: 25px;
+          padding-top: 7pt;
+          border-style: solid;
+          border-color: white;
+        }*/
+      </style>
+
+	</head>
+	<body>
+		<link rel="shortcut icon" href="">
+
+		<div class="container-fluid">
+			<div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-6">
+					<h1 class="text-center">CSS Manipulation</h1>
+				</div>
+			</div>
+
+			<p>&nbsp;</p>
+
+      <!-- Dummy text taken from https://www.lipsum.com/ -->
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6" id="my-paragraph">
+          <p>What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <h4 class="col-xs-4">Border:</h4>
+      </div>
+
+			<div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Red value:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="border-red" type="text" class="form-control" placeholder="number (0-255)" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+			<div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Green value:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="border-green" type="text" class="form-control" placeholder="number (0-255)" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Blue value:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="border-blue" type="text" class="form-control" placeholder="number (0-255)" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Width:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="border-width" type="text" class="form-control" placeholder="thin, medium, or thick" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+        <h4 class="col-xs-4">Background:</h4>
+      </div>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Red value:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="background-red" type="text" class="form-control" placeholder="number (0-255)" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Green value:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="background-green" type="text" class="form-control" placeholder="number (0-255)" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+      <div class="row">
+        <div class="col-xs-3"></div>
+				<div class="col-xs-3">
+					<p>Blue value:</p>
+				</div>
+
+				<div class="col-xs-3">
+					<input id="background-blue" type="text" class="form-control" placeholder="number (0-255)" required>
+				</div>
+			</div>
+			<p>&nbsp;</p>
+
+			<div class="row">
+        <div class="col-xs-3"></div>
+				<div class = "col-xs-2">
+					<button class = "btn btn-block btn-danger" onclick="makeChanges('border-red','border-green','border-blue','border-width','background-red','background-green','background-blue')">Make Changes</button>
+				</div>
+			</div>
+
+			<p>&nbsp;</p>
+			<div class="row">
+				<div class="col-xs-3"></div>
+				<div class = "col-xs-6">
+					<h6 class="text-center">Developed by Brian Q.</h6>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

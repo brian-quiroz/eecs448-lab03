@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <style>
+        /*Image taken from https://admissions.ku.edu/visiting-campus */
+        body {
+          background-image: url(https://admissions.ku.edu/sites/default/files/styles/banner_header_photo/public/2017-03/RS30273_13495_r_104_0.jpg?h=1ee278c7&itok=GiWZpJ_Q);
+          background-size: 145%;
+          background-repeat: repeat;
+          background-attachment: fixed;
+        }
+
+        nav {
+          margin-top: -10px;
+          margin-bottom: 100px;
+        }
+
+        .nav-pills {
+          font-size: 20px;
+          background-color: #CA1B06;
+          opacity: 0.7;
+          margin-left: -15px;
+          margin-right: -15px;
+        }
+
+        .nav-link {
+          font-family: Verdana;
+          color: white;
+        }
+
+        .nav-link:hover {
+          color: yellow;
+        }
+
+        h1 {
+          font-size: 50px;
+          padding-top: 30px;
+          padding-bottom: 30px;
+          color: blue;
+        }
+
+        #top-banner {
+          font-family: Verdana;
+          font-size: 16px;
+          color: white;
+          padding-top: 10pt;
+          background: -webkit-linear-gradient(#28CEF5, #275FC3);
+          opacity: 0.8;
+          border-radius: 15px;
+          margin-right: 75px;
+        }
+
+        #profile-picture {
+          height: 150px;
+          width: 150px;
+          border-radius: 30px;
+        }
+
+        h3 {
+          text-align: center;
+          font-family: Garamond;
+          font-size: 35pt;
+          color: white;
+        }
+
+        h4 {
+          font-size: 15pt;
+          color: white;
+        }
+
+        .fa {
+          padding: 15px;
+          margin: 8px;
+          font-size: 30px;
+          width: 70px;
+          text-align: center;
+          text-decoration: none;
+          border-radius: 50%;
+        }
+
+        .fa:hover {
+          color: white;
+          opacity: 0.7;
+          text-decoration: none;
+        }
+
+        .fa-facebook {
+          background: #3B5998;
+          color: white;
+        }
+
+        .fa-twitter {
+          background: #55ACEE;
+          color: white;
+        }
+
+        .fa-google-plus {
+          background: #C70039;
+          color: white;
+        }
+
+        .fa-linkedin {
+          background: #4180EF;
+          color: white;
+        }
+
+        .fa-snapchat {
+          background: #FFF706;
+          color: white;
+        }
+
+        .fa-instagram {
+          background: #FF1293;
+          color: white;
+        }
+
+        h5 {
+          color: red;
+          font-family: Garamond;
+          font-size: 26px;
+        }
+
+        #middle-banner {
+          text-align: center;
+          font-family: Verdana;
+          font-size: 16px;
+          color: white;
+          padding-top: 10pt;
+          background: -webkit-linear-gradient(#FFFF00, #D6E12D);
+          opacity: 0.8;
+          border-radius: 15px;
+          padding-right: 10px;
+        }
+
+        .mainbox {
+          margin-top: 25px;
+          margin-bottom: 5px;
+          padding-top: 15px;
+          padding-bottom: 5px;
+          background-color: white;
+          border-radius: 10px;
+        }
+
+        input {
+          height: 50px;
+          width: 400px;
+        }
+
+        textarea {
+          height: 200px;
+          width: 450px;
+        }
+
+        #send {
+          margin-left: 380px;
+        }
+
+        footer {
+          color: white;
+          padding-bottom: 5px;
+        }
+
+      </style>
+
+	</head>
+    <body>
+      <div class="container-fluid">
+        <nav class="navbar fixed-top">
+          <div class="row">
+            <div class="col-md-12">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="-item">
+                  <a class="nav-link" href="#portfolio">Videos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div id="home">
+          <h1 class="text-center"><br>Jay Hawk</h1>
+        <div class="row">
+          <div class="col-md-6 offset-md-2" id="top-banner">
+            <!-- Text taken from https://en.wikipedia.org/wiki/Jayhawker#Relationship_to_the_University_of_Kansas_Jayhawk -->
+            <p>"When the University of Kansas fielded their first football team in 1890, the team was called the Jayhawkers.
+            Over time, the name was gradually supplanted by its shorter variant, and KU's sports teams are now almost exclusively
+            known as the Jayhawks. In the version promoted by KU, the jayhawk is said to be a combination of two birds,
+            'the blue jay, a noisy, quarrelsome thing known to rob other nests, and the sparrow hawk, a stealthy hunter.'"</p>
+          </div>
+          <div class="col-md-2">
+            <!--Image taken from https://en.wikipedia.org/wiki/File:Kansas_Jayhawks_logo.svg -->
+            <img id="profile-picture" src="https://upload.wikimedia.org/wikipedia/en/f/f4/Kansas_Jayhawks_logo.svg">
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+          <div class="col-md-3 offset-md-2">
+            <h3><b><i>Rock Chalk, <br><br> Jayhawk, <br><br> KU</i></b></h3>
+          </div>
+          <div class="col-md-5">
+            <h4>My favorite websites are my own social media. Check them out!</h4>
+            <a href="https://www.facebook.com/KUAthletics/" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/KUAthletics" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://plus.google.com/112753784320920766688" target="_blank" class="fa fa-google-plus"></a>
+            <a href="https://www.linkedin.com/company/jayhawk-software" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://www.snapchat.com/" target="_blank" class="fa fa-snapchat"></a>
+            <a href="https://www.instagram.com/kuathletics/?hl=en" target="_blank" class="fa fa-instagram"></a>
+            <br><br>
+            <div id="middle-banner">
+              <!--Text taken from https://kansas.247sports.com/Institution/24022/Quotes/I-took-a-visit-to-Kansas-for-Late-Night-in-the-Phog-and-got-a-ta-41158477 -->
+              <h5>“<em>I took a visit to Kansas for Late Night in the Phog and got a taste of KU basketball, and it definitely was above what I heard. The fans are just crazy; I love it.”</em><br></h5>
+              <h5 class="text-right">- Michael Porter</h5>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-8 offset-md-2 mainbox">
+
+            <h2 class="text-center" id="portfolio"><strong>Videos</strong></h2>
+            <hr size="150%" width="400" color="green">
+            <div class="row">
+              <div class="col-md-6">
+            <iframe width="460" height="250" src="https://www.youtube.com/embed/jedu18-Ap8M" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-6">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/h51be27dN8c" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <br></br>
+            <div class="row">
+              <div class="col-md-6">
+            <iframe width="460" height="250" src="https://www.youtube.com/embed/VmcEcBznZoQ" frameborder="0" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-6">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/5rfwKndnZq8" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+            <br></br>
+            <div class="row">
+              <div class="col-md-6">
+            <iframe width="460" height="250" src="https://www.youtube.com/embed/eX1Cu4NMBmo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-6">
+            <iframe width="450" height="250" src="https://www.youtube.com/embed/uJMpngA_w6A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+            <hr size="100" width="full" color=red>
+
+            <br></br>
+
+            <h2 class="text-center" id="contact"><strong>Contact</strong></h2>
+            <hr size="150%" width="400" color="green">
+            <p>Feel free to contact me with any inquiries you have!</p>
+            <div class="row">
+              <div class="col-md-6">
+                <input type="text" placeholder="Name" required><br></br>
+                <input type="email" placeholder="E-mail" required><br></br>
+                <input type="tel" placeholder="Phone Number" required><br></br>
+              </div>
+              <div class="col-md-6">
+                <textarea placeholder="Message"></textarea>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"><button class="btn btn-primary" id="send">Send</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="text-center">Developed by Brian Q.</footer>
+      </div>
+    </body>
+  </head>
+</html>

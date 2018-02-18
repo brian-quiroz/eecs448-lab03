@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Slide Show</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script type="text/javascript" src="mySlideShow.js"></script>
+
+    <style>
+
+      img {
+        width: 960px;
+        height: 620px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+      }
+
+      button {
+        background-color: yellow;
+        color: blue;
+        margin-top: 460pt;
+        font-size: 25pt;
+        font-family: sans-serif;
+      }
+
+      #button-prev {
+        margin-left: 250pt;
+      }
+
+      #button-next {
+        margin-left: 5pt;
+      }
+
+			p {
+				margin-left: 380px;
+			}
+
+    </style>
+
+  </head>
+  <body>
+    <!--Images taken from https://cdn.pixabay.com/-->
+    <img src="https://cdn.pixabay.com/photo/2017/11/06/09/53/animal-2923186_960_720.jpg" alt="Tiger" class="center-block" id="img1" />
+    <img src="https://cdn.pixabay.com/photo/2017/12/19/20/34/swan-3028659_960_720.jpg" alt="Swan" class="center-block" id="img2" />
+    <img src="https://cdn.pixabay.com/photo/2018/01/28/14/41/bird-3113835_960_720.jpg" alt="Bird" class="center-block" id="img3" />
+    <img src="https://cdn.pixabay.com/photo/2017/10/20/10/58/elephant-2870777_960_720.jpg" alt="Elephant" class="center-block" id="img4" />
+    <img src="https://cdn.pixabay.com/photo/2017/12/26/16/09/lion-3040797_960_720.jpg" alt="Lion" class="center-block" id="img5"/>
+
+		<button onclick="goPrev()" id="button-prev">Previous</button>
+	  <button onclick="goNext()" id="button-next">Next</button>
+		<p>Developed by Brian Q.</p>
+
+	</body>
+</html>
